@@ -22,10 +22,4 @@
 	.dropdown-menu > a, .dropdown-item > a{
 		color: #bbb;
 	}
-
-	@media only screen and (max-width: 600px){
-		#body{
-			size: 1vm;
-		}
-	}
 </style>
