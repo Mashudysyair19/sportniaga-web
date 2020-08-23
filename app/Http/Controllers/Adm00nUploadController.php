@@ -25,7 +25,7 @@ class Adm00nUploadController extends Controller
     	]);
 
     	$file = $request->file('file');
-    	$nama_file = time()."_".$file->getClientOriginalName();
+    	$nama_file = time()."_".$request->club."_".$request->year."_".$request->type;
     	$tujuan_upload = 'data_file';
     	$file->move($tujuan_upload,$nama_file);
 

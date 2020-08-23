@@ -44,10 +44,8 @@
 			<div class="form-group row">
 				<label for="tp" class="col-form-label col-4">Tipe:</label>
 				<select class="form-control col" id="type" name="type" required>
-					<option>S</option>
-					<option>M</option>
-					<option>L</option>
-					<option>XL</option>
+					<option>Home</option>
+					<option>Away</option>
 				</select>
 			</div>
 			<div class="form-group row">
