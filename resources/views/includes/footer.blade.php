@@ -1,0 +1,1 @@
+<div id="copyright text-right">&#169; Copyright 2020 Sportniaga</div>
